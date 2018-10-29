@@ -1,0 +1,32 @@
+### Headers settings
+company: MTruzko
+
+### Xcode project settings
+project_name: GitHubExp
+xcodeproj_path: GitHubExp.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: GitHubExp
+
+# The file path for new modules
+project_file_path: GitHubExp/Modules
+
+# The Xcode group path to new modules
+project_group_path: GitHubExp/Modules
+
+### Tests generation settings section
+# The tests target name
+test_target: GitHubExpTests
+
+# The file path for new tests
+test_file_path: GitHubExpTests/ModulesTests
+
+# The Xcode group path to new tests
+test_group_path: GitHubExpTests/ModulesTests
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
