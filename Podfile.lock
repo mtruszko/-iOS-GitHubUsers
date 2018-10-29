@@ -1,0 +1,23 @@
+PODS:
+  - Moviper (0.0.1):
+    - RxSwift (= 4.3.1)
+  - RxSwift (4.3.1)
+
+DEPENDENCIES:
+  - Moviper (from `~/Projects/-iOS-moviper`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Moviper:
+    :path: "~/Projects/-iOS-moviper"
+
+SPEC CHECKSUMS:
+  Moviper: c80954e760e8cf57948c8bb8866325e3cfa32751
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+
+PODFILE CHECKSUM: b3eb0fdda2257a49f75b7620fc95707f388bced9
+
+COCOAPODS: 1.5.3
