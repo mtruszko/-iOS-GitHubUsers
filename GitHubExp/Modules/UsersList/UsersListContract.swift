@@ -6,7 +6,7 @@
 //  Copyright © 2018 MTruzko. All rights reserved.
 //
 
-import Foundation
+import Moviper
 
 protocol UsersListContractRouting: ViperRxRouting {
 

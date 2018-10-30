@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Moviper
 
 class UsersListPresenter
      <InteractorType: UsersListContractInteractor, RoutingType: UsersListContractRouting, ViewType: UsersListContractView>

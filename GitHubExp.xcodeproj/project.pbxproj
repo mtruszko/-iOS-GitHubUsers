@@ -61,7 +61,7 @@
 
 /* Begin PBXFileReference section */
 		06B0708D5FC61F94A61A40C0 /* Pods-GitHubExpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubExpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubExpUITests/Pods-GitHubExpUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1066C6174CB7735F2F31446B /* UsersProfile.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; path = UsersProfile.storyboard; sourceTree = "<group>"; };
+		1066C6174CB7735F2F31446B /* UsersProfile.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = UsersProfile.storyboard; sourceTree = "<group>"; };
 		167C20DD53A6E6E375816006 /* UsersListStarter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListStarter.swift; sourceTree = "<group>"; };
 		1CA27EC09081D40FDA967366 /* UsersProfilePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersProfilePresenter.swift; sourceTree = "<group>"; };
 		271E59E84413CB1BD245EB4A /* UsersProfileContract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersProfileContract.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		B9AF41029BAA776B89E5AF8F /* UsersListViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListViewTests.swift; sourceTree = "<group>"; };
 		BABC028FC085107BC4DE4035 /* UsersListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListPresenter.swift; sourceTree = "<group>"; };
 		D8670225D3AF28849496CFAD /* UsersProfileViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersProfileViewTests.swift; sourceTree = "<group>"; };
-		DA2F71DEB34A2F92DB63EF57 /* UsersList.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; path = UsersList.storyboard; sourceTree = "<group>"; };
+		DA2F71DEB34A2F92DB63EF57 /* UsersList.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = UsersList.storyboard; sourceTree = "<group>"; };
 		E43FCB9BDA8C4B3C3379486E /* UsersProfileInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersProfileInteractorTests.swift; sourceTree = "<group>"; };
 		E78298D3D84CC46AA24EDCB3 /* Pods-GitHubExpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubExpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubExpTests/Pods-GitHubExpTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EADB9B2C2187BBBB00095CA5 /* GitHubExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				A23C9E253A24AACF15485464 /* UsersProfileStarter.swift */,
 				1066C6174CB7735F2F31446B /* UsersProfile.storyboard */,
 			);
-			name = UsersProfile;
 			path = UsersProfile;
 			sourceTree = "<group>";
 		};
@@ -166,7 +165,6 @@
 				9F5B8311A9F669E4F9A3D37D /* UsersList */,
 				352C3CF547D0D11064C441D4 /* UsersProfile */,
 			);
-			name = Modules;
 			path = Modules;
 			sourceTree = "<group>";
 		};
@@ -178,7 +176,6 @@
 				EDFA318CA48743B93275C11D /* UsersListInteractorTests.swift */,
 				5064068194C32A606F205789 /* UsersListRoutingTests.swift */,
 			);
-			name = UsersList;
 			path = UsersList;
 			sourceTree = "<group>";
 		};
@@ -193,7 +190,6 @@
 				167C20DD53A6E6E375816006 /* UsersListStarter.swift */,
 				DA2F71DEB34A2F92DB63EF57 /* UsersList.storyboard */,
 			);
-			name = UsersList;
 			path = UsersList;
 			sourceTree = "<group>";
 		};
@@ -218,7 +214,6 @@
 				E43FCB9BDA8C4B3C3379486E /* UsersProfileInteractorTests.swift */,
 				9EB38725E6C3D1A2011F776E /* UsersProfileRoutingTests.swift */,
 			);
-			name = UsersProfile;
 			path = UsersProfile;
 			sourceTree = "<group>";
 		};
@@ -228,8 +223,16 @@
 				6310B2A60B0E4AD4EFA978CB /* UsersList */,
 				C96BCC4F3A10806167499B24 /* UsersProfile */,
 			);
-			name = ModulesTests;
 			path = ModulesTests;
+			sourceTree = "<group>";
+		};
+		EAAE97D52188BEBC00FCF763 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EADB9B3E2187BBBC00095CA5 /* Info.plist */,
+				EADB9B2F2187BBBB00095CA5 /* AppDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		EADB9B232187BBBB00095CA5 = {
@@ -257,12 +260,11 @@
 		EADB9B2E2187BBBB00095CA5 /* GitHubExp */ = {
 			isa = PBXGroup;
 			children = (
-				EADB9B2F2187BBBB00095CA5 /* AppDelegate.swift */,
+				EAAE97D52188BEBC00FCF763 /* Application */,
 				EADB9B312187BBBB00095CA5 /* ViewController.swift */,
 				EADB9B332187BBBB00095CA5 /* Main.storyboard */,
 				EADB9B392187BBBC00095CA5 /* Assets.xcassets */,
 				EADB9B3B2187BBBC00095CA5 /* LaunchScreen.storyboard */,
-				EADB9B3E2187BBBC00095CA5 /* Info.plist */,
 				EADB9B362187BBBB00095CA5 /* GitHubExp.xcdatamodeld */,
 				515EC6AF901D000D2B0E88C9 /* Modules */,
 			);

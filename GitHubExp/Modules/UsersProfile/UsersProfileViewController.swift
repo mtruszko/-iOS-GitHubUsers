@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Moviper
 
 class UsersProfileViewController: BaseRxViewController, UsersProfileContractView {
 

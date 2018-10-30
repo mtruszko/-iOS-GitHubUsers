@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Moviper
 
 class UsersProfileStarter: BaseStarter<UsersProfileViewController> {
     override func startOn(viperView: ViperNavigator,

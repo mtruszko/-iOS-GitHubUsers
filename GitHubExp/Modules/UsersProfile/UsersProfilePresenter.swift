@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Moviper
 
 class UsersProfilePresenter
      <InteractorType: UsersProfileContractInteractor, RoutingType: UsersProfileContractRouting, ViewType: UsersProfileContractView>

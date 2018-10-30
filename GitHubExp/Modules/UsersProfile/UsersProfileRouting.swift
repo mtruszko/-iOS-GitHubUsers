@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Moviper
 
 class UsersProfileRouting: BaseRxRouting, UsersProfileContractRouting {
 
