@@ -27,6 +27,7 @@ PODS:
   - RxTest (4.3.1):
     - RxSwift (~> 4.0)
   - SwiftLint (0.27.0)
+  - Swinject (2.5.0)
 
 DEPENDENCIES:
   - Cuckoo
@@ -40,6 +41,7 @@ DEPENDENCIES:
   - RxSwift
   - RxTest
   - SwiftLint
+  - Swinject
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -55,6 +57,7 @@ SPEC REPOS:
     - RxSwift
     - RxTest
     - SwiftLint
+    - Swinject
 
 EXTERNAL SOURCES:
   Moviper:
@@ -74,7 +77,8 @@ SPEC CHECKSUMS:
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
   RxTest: ea97a208826906f3904c0debdd09575ebcbfe216
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
 
-PODFILE CHECKSUM: f0c8d43cb6ae4b0b296d6fd8e4c3afe0ecc5312f
+PODFILE CHECKSUM: a91723302c9af6e0f8739408beae9b1c26f549aa
 
 COCOAPODS: 1.5.3

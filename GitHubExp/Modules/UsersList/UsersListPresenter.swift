@@ -3,7 +3,7 @@
 //  GitHubExp
 //
 //  Created by Marek on 29/10/2018.
-//  Copyright © 2018 MTruzko. All rights reserved.
+//  Copyright © 2018 MTruszko. All rights reserved.
 //
 
 import UIKit
@@ -15,6 +15,19 @@ class UsersListPresenter
 
     override func attach(viperView: ViperRxView) {
         super.attach(viperView: viperView)
+        
+        addSubscription(subscription:
+            interactor.getGitHubUsers()
+                .subscribe(onNext: { gitHubUsers in
+                    self.view?.show(githubUsers: gitHubUsers)
+                }, onError: { error in
+                    self.view?.show(error: error)
+                })
+        )
+    }
+    
+    func refreshList() {
+        
     }
 
     override func createRouting() -> RoutingType {

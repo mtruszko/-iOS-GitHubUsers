@@ -3,6 +3,7 @@ target 'GitHubExp' do
 
     pod 'SwiftLint'
     
+    pod 'Swinject'
     pod 'RxSwift'
     pod 'Kingfisher'
     pod 'Moya/RxSwift'

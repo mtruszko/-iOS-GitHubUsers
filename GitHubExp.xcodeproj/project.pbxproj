@@ -31,6 +31,19 @@
 		DBED504DE5481456AEA674D5 /* UsersProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1066C6174CB7735F2F31446B /* UsersProfile.storyboard */; };
 		DE952B6AE28334A91CBB7C4B /* UsersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABC028FC085107BC4DE4035 /* UsersListPresenter.swift */; };
 		E4C3D99C6094839024435B0A /* UsersProfileInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FCB9BDA8C4B3C3379486E /* UsersProfileInteractorTests.swift */; };
+		EA6C86AF2188F935008B821F /* IPCUsersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6C86AE2188F935008B821F /* IPCUsersList.swift */; };
+		EAAE97D92188C71000FCF763 /* UsersMoyaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97D82188C71000FCF763 /* UsersMoyaAPI.swift */; };
+		EAAE97DC2188C86B00FCF763 /* RepositoryObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97DB2188C86B00FCF763 /* RepositoryObservable.swift */; };
+		EAAE97DE2188C8A100FCF763 /* Specification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97DD2188C8A100FCF763 /* Specification.swift */; };
+		EAAE97E62188CA7B00FCF763 /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97E52188CA7B00FCF763 /* GitHubUser.swift */; };
+		EAAE97EB2188CC6B00FCF763 /* GitHubUserMoyaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97EA2188CC6B00FCF763 /* GitHubUserMoyaModel.swift */; };
+		EAAE97ED2188CC8D00FCF763 /* GitHubUserMoyaModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97EC2188CC8D00FCF763 /* GitHubUserMoyaModelMapper.swift */; };
+		EAAE97F12188CCCA00FCF763 /* GitHubUserMoyaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97F02188CCCA00FCF763 /* GitHubUserMoyaRepository.swift */; };
+		EAAE97F32188CCDF00FCF763 /* GitHubUserMoyaSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97F22188CCDF00FCF763 /* GitHubUserMoyaSpecification.swift */; };
+		EAAE97F52188CCEE00FCF763 /* MoyaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97F42188CCEE00FCF763 /* MoyaRepository.swift */; };
+		EAAE97F72188CCFD00FCF763 /* MoyaSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97F62188CCFD00FCF763 /* MoyaSpecification.swift */; };
+		EAAE97FA2188CF0800FCF763 /* DIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97F92188CF0800FCF763 /* DIProvider.swift */; };
+		EAAE97FD2188D04300FCF763 /* GitHubUserAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97FC2188D04300FCF763 /* GitHubUserAssembly.swift */; };
 		EADB9B302187BBBB00095CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADB9B2F2187BBBB00095CA5 /* AppDelegate.swift */; };
 		EADB9B382187BBBB00095CA5 /* GitHubExp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EADB9B362187BBBB00095CA5 /* GitHubExp.xcdatamodeld */; };
 		EADB9B3A2187BBBC00095CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADB9B392187BBBC00095CA5 /* Assets.xcassets */; };
@@ -86,6 +99,19 @@
 		DA2F71DEB34A2F92DB63EF57 /* UsersList.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = UsersList.storyboard; sourceTree = "<group>"; };
 		E43FCB9BDA8C4B3C3379486E /* UsersProfileInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersProfileInteractorTests.swift; sourceTree = "<group>"; };
 		E78298D3D84CC46AA24EDCB3 /* Pods-GitHubExpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubExpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubExpTests/Pods-GitHubExpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6C86AE2188F935008B821F /* IPCUsersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPCUsersList.swift; sourceTree = "<group>"; };
+		EAAE97D82188C71000FCF763 /* UsersMoyaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersMoyaAPI.swift; sourceTree = "<group>"; };
+		EAAE97DB2188C86B00FCF763 /* RepositoryObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryObservable.swift; sourceTree = "<group>"; };
+		EAAE97DD2188C8A100FCF763 /* Specification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specification.swift; sourceTree = "<group>"; };
+		EAAE97E52188CA7B00FCF763 /* GitHubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
+		EAAE97EA2188CC6B00FCF763 /* GitHubUserMoyaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserMoyaModel.swift; sourceTree = "<group>"; };
+		EAAE97EC2188CC8D00FCF763 /* GitHubUserMoyaModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserMoyaModelMapper.swift; sourceTree = "<group>"; };
+		EAAE97F02188CCCA00FCF763 /* GitHubUserMoyaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserMoyaRepository.swift; sourceTree = "<group>"; };
+		EAAE97F22188CCDF00FCF763 /* GitHubUserMoyaSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserMoyaSpecification.swift; sourceTree = "<group>"; };
+		EAAE97F42188CCEE00FCF763 /* MoyaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaRepository.swift; sourceTree = "<group>"; };
+		EAAE97F62188CCFD00FCF763 /* MoyaSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaSpecification.swift; sourceTree = "<group>"; };
+		EAAE97F92188CF0800FCF763 /* DIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIProvider.swift; sourceTree = "<group>"; };
+		EAAE97FC2188D04300FCF763 /* GitHubUserAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserAssembly.swift; sourceTree = "<group>"; };
 		EADB9B2C2187BBBB00095CA5 /* GitHubExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADB9B2F2187BBBB00095CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADB9B372187BBBB00095CA5 /* GitHubExp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitHubExp.xcdatamodel; sourceTree = "<group>"; };
@@ -178,6 +204,7 @@
 		9F5B8311A9F669E4F9A3D37D /* UsersList */ = {
 			isa = PBXGroup;
 			children = (
+				EA6C86AD2188F8F4008B821F /* Utils */,
 				6B9CFC36641C9FE27BE4D2AB /* UsersListContract.swift */,
 				46EB0EEE05C71D926CDBD866 /* UsersListViewController.swift */,
 				BABC028FC085107BC4DE4035 /* UsersListPresenter.swift */,
@@ -222,6 +249,14 @@
 			path = ModulesTests;
 			sourceTree = "<group>";
 		};
+		EA6C86AD2188F8F4008B821F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA6C86AE2188F935008B821F /* IPCUsersList.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		EAAE97D52188BEBC00FCF763 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,9 +269,107 @@
 		EAAE97D62188C21A00FCF763 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EAAE97E42188CA5400FCF763 /* Entitiy */,
+				EAAE97DA2188C7FB00FCF763 /* BaseRDP */,
+				EAAE97DF2188C9D200FCF763 /* RDP */,
+				EAAE97E72188CC2800FCF763 /* Model */,
 				EADB9B362187BBBB00095CA5 /* GitHubExp.xcdatamodeld */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		EAAE97D72188C6E500FCF763 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97D82188C71000FCF763 /* UsersMoyaAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EAAE97DA2188C7FB00FCF763 /* BaseRDP */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97DB2188C86B00FCF763 /* RepositoryObservable.swift */,
+				EAAE97DD2188C8A100FCF763 /* Specification.swift */,
+			);
+			path = BaseRDP;
+			sourceTree = "<group>";
+		};
+		EAAE97DF2188C9D200FCF763 /* RDP */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97E22188CA1F00FCF763 /* Moya */,
+			);
+			path = RDP;
+			sourceTree = "<group>";
+		};
+		EAAE97E22188CA1F00FCF763 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97F42188CCEE00FCF763 /* MoyaRepository.swift */,
+				EAAE97F62188CCFD00FCF763 /* MoyaSpecification.swift */,
+				EAAE97EF2188CCAB00FCF763 /* GitHubUser */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		EAAE97E42188CA5400FCF763 /* Entitiy */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97E52188CA7B00FCF763 /* GitHubUser.swift */,
+			);
+			path = Entitiy;
+			sourceTree = "<group>";
+		};
+		EAAE97E72188CC2800FCF763 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97E82188CC3100FCF763 /* Moya */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAAE97E82188CC3100FCF763 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97E92188CC4E00FCF763 /* GitHubUser */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		EAAE97E92188CC4E00FCF763 /* GitHubUser */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97EA2188CC6B00FCF763 /* GitHubUserMoyaModel.swift */,
+				EAAE97EC2188CC8D00FCF763 /* GitHubUserMoyaModelMapper.swift */,
+			);
+			path = GitHubUser;
+			sourceTree = "<group>";
+		};
+		EAAE97EF2188CCAB00FCF763 /* GitHubUser */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97F02188CCCA00FCF763 /* GitHubUserMoyaRepository.swift */,
+				EAAE97F22188CCDF00FCF763 /* GitHubUserMoyaSpecification.swift */,
+			);
+			path = GitHubUser;
+			sourceTree = "<group>";
+		};
+		EAAE97F82188CEC800FCF763 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97F92188CF0800FCF763 /* DIProvider.swift */,
+				EAAE97FB2188CF7300FCF763 /* Assembler */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		EAAE97FB2188CF7300FCF763 /* Assembler */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97FC2188D04300FCF763 /* GitHubUserAssembly.swift */,
+			);
+			path = Assembler;
 			sourceTree = "<group>";
 		};
 		EADB9B232187BBBB00095CA5 = {
@@ -266,6 +399,8 @@
 			children = (
 				EAAE97D52188BEBC00FCF763 /* Application */,
 				EAAE97D62188C21A00FCF763 /* Data */,
+				EAAE97D72188C6E500FCF763 /* Network */,
+				EAAE97F82188CEC800FCF763 /* DI */,
 				515EC6AF901D000D2B0E88C9 /* Modules */,
 				EADB9B3B2187BBBC00095CA5 /* LaunchScreen.storyboard */,
 				EADB9B392187BBBC00095CA5 /* Assets.xcassets */,
@@ -519,6 +654,7 @@
 				"${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -532,6 +668,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ModelMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -568,18 +705,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				EADB9B382187BBBB00095CA5 /* GitHubExp.xcdatamodeld in Sources */,
+				EAAE97F72188CCFD00FCF763 /* MoyaSpecification.swift in Sources */,
+				EAAE97DE2188C8A100FCF763 /* Specification.swift in Sources */,
 				EADB9B302187BBBB00095CA5 /* AppDelegate.swift in Sources */,
+				EAAE97E62188CA7B00FCF763 /* GitHubUser.swift in Sources */,
 				998EFD9FF97B403BA43704E6 /* UsersListContract.swift in Sources */,
+				EA6C86AF2188F935008B821F /* IPCUsersList.swift in Sources */,
 				35313D11930F7B7C2D01E141 /* UsersListViewController.swift in Sources */,
 				DE952B6AE28334A91CBB7C4B /* UsersListPresenter.swift in Sources */,
+				EAAE97FA2188CF0800FCF763 /* DIProvider.swift in Sources */,
 				858E25B7B7DB6F9F70F80AF7 /* UsersListInteractor.swift in Sources */,
+				EAAE97D92188C71000FCF763 /* UsersMoyaAPI.swift in Sources */,
 				9A32DEA4B1ADA4DDAB747FBF /* UsersListRouting.swift in Sources */,
 				FD15AD972F352B347EDBB7C1 /* UsersListStarter.swift in Sources */,
+				EAAE97EB2188CC6B00FCF763 /* GitHubUserMoyaModel.swift in Sources */,
 				7D9B433723E32E00C4377874 /* UsersProfileContract.swift in Sources */,
+				EAAE97DC2188C86B00FCF763 /* RepositoryObservable.swift in Sources */,
 				07A3CCC1906C8AEB8026D478 /* UsersProfileViewController.swift in Sources */,
+				EAAE97F32188CCDF00FCF763 /* GitHubUserMoyaSpecification.swift in Sources */,
+				EAAE97F12188CCCA00FCF763 /* GitHubUserMoyaRepository.swift in Sources */,
+				EAAE97FD2188D04300FCF763 /* GitHubUserAssembly.swift in Sources */,
+				EAAE97F52188CCEE00FCF763 /* MoyaRepository.swift in Sources */,
 				C3E762003AF05ABD8CCF24FD /* UsersProfilePresenter.swift in Sources */,
 				62541A601A0F6FFD1BFDBB85 /* UsersProfileInteractor.swift in Sources */,
 				07456BF7985040609EB9FC25 /* UsersProfileRouting.swift in Sources */,
+				EAAE97ED2188CC8D00FCF763 /* GitHubUserMoyaModelMapper.swift in Sources */,
 				0B367C04D613D1487BDEAA8C /* UsersProfileStarter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -754,7 +904,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GitHubExp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GitHubExp/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mt.GitHubExp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -769,7 +919,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GitHubExp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GitHubExp/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mt.GitHubExp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
