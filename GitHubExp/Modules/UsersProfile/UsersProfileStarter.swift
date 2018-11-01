@@ -15,7 +15,8 @@ class UsersProfileStarter: BaseStarter<UsersProfileViewController> {
                           configurationBlock: ((UsersProfileViewController) -> ())? = nil) {
         let aUsersProfileViewController = UIViewController.getUsersProfileViewController()
         configurationBlock?(aUsersProfileViewController)
-        //viperView.presentOnTopView(destinationViewController: aUsersProfileViewController, animated: animated)
+        viperView.presentOnTopView(destinationViewController: aUsersProfileViewController,
+                                   animated: animated)
     }
 }
 
