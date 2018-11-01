@@ -15,16 +15,10 @@ extension ObservableType where E == () {
         return self.flatMap { event in
             Moviper.sharedInstance
                 .getPresenterInstance(
-                    presenterType: UsersListPresenter<
-                        UsersListInteractor,
-                        UsersListRouting,
-                        UsersListViewController>.self)
+                    presenterType: UserListPresenterType.self)
                 .asObservable()
                 //bundleWith
-                .map { presenter -> (E, UsersListPresenter<
-                    UsersListInteractor,
-                    UsersListRouting,
-                    UsersListViewController>) in
+                .map { presenter -> (E, UserListPresenterType) in
                     (event, presenter)
                 }
                 .do(onNext: { _, presenter in

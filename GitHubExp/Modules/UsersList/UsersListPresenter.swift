@@ -9,10 +9,16 @@
 import UIKit
 import Moviper
 
-class UsersListPresenter
-     <InteractorType: UsersListContractInteractor, RoutingType: UsersListContractRouting, ViewType: UsersListContractView>
-    : BaseRxPresenter<InteractorType, RoutingType, ViewType> {
+typealias UserListPresenterType =
+    UsersListPresenter<
+    UsersListInteractor,
+    UsersListRouting,
+    UsersListViewController>
 
+class UsersListPresenter
+    <InteractorType: UsersListContractInteractor, RoutingType: UsersListContractRouting, ViewType: UsersListContractView>
+: BaseRxPresenter<InteractorType, RoutingType, ViewType> {
+    
     override func attach(viperView: ViperRxView) {
         super.attach(viperView: viperView)
         
@@ -29,11 +35,11 @@ class UsersListPresenter
     func refreshList() {
         
     }
-
+    
     override func createRouting() -> RoutingType {
         return UsersListRouting() as! RoutingType
     }
-
+    
     override func createInteractor() -> InteractorType {
         return UsersListInteractor() as! InteractorType
     }
