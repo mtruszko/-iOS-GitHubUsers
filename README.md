@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="Resources/gitHub_users.png" width="300">
+  <img src="Resources/github_users.png" width="300">
 </h3>
 
 
