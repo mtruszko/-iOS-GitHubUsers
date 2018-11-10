@@ -15,7 +15,7 @@
 - RDP
 - DI
 
-TODO:
+In progress:
 - Unit Tests
 - Cuckoo
 - UI Test
