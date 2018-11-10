@@ -5,4 +5,17 @@
 
 # -iOS-GitHubUsers
 
--iOS-Moviper sample app
+-iOS-Moviper showcase app
+
+## Technologies
+
+- Swift 4.2
+- RxSwift
+- iOSMoviper
+- RDP
+- DI
+TODO:
+- Unit Tests
+- Cuckoo
+- UI Test
+- Robot Pattern
