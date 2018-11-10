@@ -11,8 +11,12 @@ import Mapper
 
 struct GitHubUserMoyaModel: Mappable {
     let id: Int?
+    let login: String?
+    let avatarUrl: String?
     
     init(map: Mapper) throws {
         id = map.optionalFrom("id")
+        login = map.optionalFrom("login")
+        avatarUrl = map.optionalFrom("avatar_url")
     }
 }

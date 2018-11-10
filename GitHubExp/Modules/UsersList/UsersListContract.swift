@@ -10,7 +10,7 @@ import Moviper
 import RxSwift
 
 protocol UsersListContractRouting: ViperRxRouting {
-    func startUserProfile()
+    func startUserProfile(gitHubUser: GitHubUser)
 }
 
 protocol UsersListContractInteractor: ViperRxInteractor {
@@ -18,6 +18,9 @@ protocol UsersListContractInteractor: ViperRxInteractor {
 }
 
 protocol UsersListContractView: ViperRxView {
+    var pullToRefreshObservable: Observable<()> { get }
+    var selectedUser: PublishSubject<GitHubUser> { get }
+    func showLoading()
     func show(githubUsers: [GitHubUser])
     func show(error: Error)
 }

@@ -31,6 +31,7 @@
 		DBED504DE5481456AEA674D5 /* UsersProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1066C6174CB7735F2F31446B /* UsersProfile.storyboard */; };
 		DE952B6AE28334A91CBB7C4B /* UsersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABC028FC085107BC4DE4035 /* UsersListPresenter.swift */; };
 		E4C3D99C6094839024435B0A /* UsersProfileInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FCB9BDA8C4B3C3379486E /* UsersProfileInteractorTests.swift */; };
+		EA3D00552196F84700FE5272 /* BaseNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D00542196F84700FE5272 /* BaseNavbar.swift */; };
 		EA6C86AF2188F935008B821F /* IPCUsersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6C86AE2188F935008B821F /* IPCUsersList.swift */; };
 		EAAE97D92188C71000FCF763 /* UsersMoyaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97D82188C71000FCF763 /* UsersMoyaAPI.swift */; };
 		EAAE97DC2188C86B00FCF763 /* RepositoryObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97DB2188C86B00FCF763 /* RepositoryObservable.swift */; };
@@ -44,12 +45,15 @@
 		EAAE97F72188CCFD00FCF763 /* MoyaSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97F62188CCFD00FCF763 /* MoyaSpecification.swift */; };
 		EAAE97FA2188CF0800FCF763 /* DIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97F92188CF0800FCF763 /* DIProvider.swift */; };
 		EAAE97FD2188D04300FCF763 /* GitHubUserAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE97FC2188D04300FCF763 /* GitHubUserAssembly.swift */; };
+		EACD13472194CC28005571E7 /* GitHubUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD13452194CC28005571E7 /* GitHubUserTableViewCell.swift */; };
+		EACD13482194CC28005571E7 /* GitHubUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACD13462194CC28005571E7 /* GitHubUserTableViewCell.xib */; };
 		EADB9B302187BBBB00095CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADB9B2F2187BBBB00095CA5 /* AppDelegate.swift */; };
 		EADB9B382187BBBB00095CA5 /* GitHubExp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EADB9B362187BBBB00095CA5 /* GitHubExp.xcdatamodeld */; };
 		EADB9B3A2187BBBC00095CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADB9B392187BBBC00095CA5 /* Assets.xcassets */; };
 		EADB9B3D2187BBBC00095CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADB9B3B2187BBBC00095CA5 /* LaunchScreen.storyboard */; };
 		EADB9B482187BBBC00095CA5 /* GitHubExpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADB9B472187BBBC00095CA5 /* GitHubExpTests.swift */; };
 		EADB9B532187BBBC00095CA5 /* GitHubExpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADB9B522187BBBC00095CA5 /* GitHubExpUITests.swift */; };
+		EAE786F421937A540095A73B /* RxUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE786F321937A540095A73B /* RxUtils.swift */; };
 		FD15AD972F352B347EDBB7C1 /* UsersListStarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C20DD53A6E6E375816006 /* UsersListStarter.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +103,7 @@
 		DA2F71DEB34A2F92DB63EF57 /* UsersList.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = UsersList.storyboard; sourceTree = "<group>"; };
 		E43FCB9BDA8C4B3C3379486E /* UsersProfileInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersProfileInteractorTests.swift; sourceTree = "<group>"; };
 		E78298D3D84CC46AA24EDCB3 /* Pods-GitHubExpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubExpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubExpTests/Pods-GitHubExpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA3D00542196F84700FE5272 /* BaseNavbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavbar.swift; sourceTree = "<group>"; };
 		EA6C86AE2188F935008B821F /* IPCUsersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPCUsersList.swift; sourceTree = "<group>"; };
 		EAAE97D82188C71000FCF763 /* UsersMoyaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersMoyaAPI.swift; sourceTree = "<group>"; };
 		EAAE97DB2188C86B00FCF763 /* RepositoryObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryObservable.swift; sourceTree = "<group>"; };
@@ -112,6 +117,8 @@
 		EAAE97F62188CCFD00FCF763 /* MoyaSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaSpecification.swift; sourceTree = "<group>"; };
 		EAAE97F92188CF0800FCF763 /* DIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIProvider.swift; sourceTree = "<group>"; };
 		EAAE97FC2188D04300FCF763 /* GitHubUserAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserAssembly.swift; sourceTree = "<group>"; };
+		EACD13452194CC28005571E7 /* GitHubUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserTableViewCell.swift; sourceTree = "<group>"; };
+		EACD13462194CC28005571E7 /* GitHubUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GitHubUserTableViewCell.xib; sourceTree = "<group>"; };
 		EADB9B2C2187BBBB00095CA5 /* GitHubExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADB9B2F2187BBBB00095CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADB9B372187BBBB00095CA5 /* GitHubExp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitHubExp.xcdatamodel; sourceTree = "<group>"; };
@@ -124,6 +131,7 @@
 		EADB9B4E2187BBBC00095CA5 /* GitHubExpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubExpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADB9B522187BBBC00095CA5 /* GitHubExpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubExpUITests.swift; sourceTree = "<group>"; };
 		EADB9B542187BBBC00095CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE786F321937A540095A73B /* RxUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxUtils.swift; sourceTree = "<group>"; };
 		EDFA318CA48743B93275C11D /* UsersListInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListInteractorTests.swift; sourceTree = "<group>"; };
 		F194CBF9C77BC55309A14BF1 /* Pods-GitHubExpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubExpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubExpTests/Pods-GitHubExpTests.release.xcconfig"; sourceTree = "<group>"; };
 		F3842DEE9B91A4811381C703 /* UsersProfileViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersProfileViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +212,7 @@
 		9F5B8311A9F669E4F9A3D37D /* UsersList */ = {
 			isa = PBXGroup;
 			children = (
+				EACD13402194CAD6005571E7 /* Views */,
 				EA6C86AD2188F8F4008B821F /* Utils */,
 				6B9CFC36641C9FE27BE4D2AB /* UsersListContract.swift */,
 				46EB0EEE05C71D926CDBD866 /* UsersListViewController.swift */,
@@ -372,6 +381,15 @@
 			path = Assembler;
 			sourceTree = "<group>";
 		};
+		EACD13402194CAD6005571E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EACD13452194CC28005571E7 /* GitHubUserTableViewCell.swift */,
+				EACD13462194CC28005571E7 /* GitHubUserTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EADB9B232187BBBB00095CA5 = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +419,7 @@
 				EAAE97D62188C21A00FCF763 /* Data */,
 				EAAE97D72188C6E500FCF763 /* Network */,
 				EAAE97F82188CEC800FCF763 /* DI */,
+				EAE786F221937A370095A73B /* Utils */,
 				515EC6AF901D000D2B0E88C9 /* Modules */,
 				EADB9B3B2187BBBC00095CA5 /* LaunchScreen.storyboard */,
 				EADB9B392187BBBC00095CA5 /* Assets.xcassets */,
@@ -425,6 +444,15 @@
 				EADB9B542187BBBC00095CA5 /* Info.plist */,
 			);
 			path = GitHubExpUITests;
+			sourceTree = "<group>";
+		};
+		EAE786F221937A370095A73B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EAE786F321937A540095A73B /* RxUtils.swift */,
+				EA3D00542196F84700FE5272 /* BaseNavbar.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -540,6 +568,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EADB9B3D2187BBBC00095CA5 /* LaunchScreen.storyboard in Resources */,
+				EACD13482194CC28005571E7 /* GitHubUserTableViewCell.xib in Resources */,
 				EADB9B3A2187BBBC00095CA5 /* Assets.xcassets in Resources */,
 				AB522989DF6F52CB4F581D14 /* UsersList.storyboard in Resources */,
 				DBED504DE5481456AEA674D5 /* UsersProfile.storyboard in Resources */,
@@ -598,6 +627,7 @@
 				"${BUILT_PRODUCTS_DIR}/Cuckoo/Cuckoo.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -608,6 +638,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cuckoo.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,6 +684,7 @@
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
@@ -667,6 +699,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ModelMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 			);
@@ -706,11 +739,13 @@
 			files = (
 				EADB9B382187BBBB00095CA5 /* GitHubExp.xcdatamodeld in Sources */,
 				EAAE97F72188CCFD00FCF763 /* MoyaSpecification.swift in Sources */,
+				EA3D00552196F84700FE5272 /* BaseNavbar.swift in Sources */,
 				EAAE97DE2188C8A100FCF763 /* Specification.swift in Sources */,
 				EADB9B302187BBBB00095CA5 /* AppDelegate.swift in Sources */,
 				EAAE97E62188CA7B00FCF763 /* GitHubUser.swift in Sources */,
 				998EFD9FF97B403BA43704E6 /* UsersListContract.swift in Sources */,
 				EA6C86AF2188F935008B821F /* IPCUsersList.swift in Sources */,
+				EACD13472194CC28005571E7 /* GitHubUserTableViewCell.swift in Sources */,
 				35313D11930F7B7C2D01E141 /* UsersListViewController.swift in Sources */,
 				DE952B6AE28334A91CBB7C4B /* UsersListPresenter.swift in Sources */,
 				EAAE97FA2188CF0800FCF763 /* DIProvider.swift in Sources */,
@@ -727,6 +762,7 @@
 				EAAE97FD2188D04300FCF763 /* GitHubUserAssembly.swift in Sources */,
 				EAAE97F52188CCEE00FCF763 /* MoyaRepository.swift in Sources */,
 				C3E762003AF05ABD8CCF24FD /* UsersProfilePresenter.swift in Sources */,
+				EAE786F421937A540095A73B /* RxUtils.swift in Sources */,
 				62541A601A0F6FFD1BFDBB85 /* UsersProfileInteractor.swift in Sources */,
 				07456BF7985040609EB9FC25 /* UsersProfileRouting.swift in Sources */,
 				EAAE97ED2188CC8D00FCF763 /* GitHubUserMoyaModelMapper.swift in Sources */,

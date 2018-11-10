@@ -9,14 +9,14 @@
 import UIKit
 import Moviper
 
-class UsersProfileStarter: BaseStarter<UsersProfileViewController> {
+class UsersProfileStarter: BaseStarter<UsersProfileViewController> {    
     override func startOn(viperView: ViperNavigator,
                           animated: Bool = true,
                           configurationBlock: ((UsersProfileViewController) -> ())? = nil) {
         let aUsersProfileViewController = UIViewController.getUsersProfileViewController()
         configurationBlock?(aUsersProfileViewController)
-        viperView.presentOnTopView(destinationViewController: aUsersProfileViewController,
-                                   animated: animated)
+        viperView.push(destinationViewController: aUsersProfileViewController,
+                       animated: true)
     }
 }
 

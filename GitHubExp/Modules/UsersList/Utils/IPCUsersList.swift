@@ -17,7 +17,6 @@ extension ObservableType where E == () {
                 .getPresenterInstance(
                     presenterType: UserListPresenterType.self)
                 .asObservable()
-                //bundleWith
                 .map { presenter -> (E, UserListPresenterType) in
                     (event, presenter)
                 }

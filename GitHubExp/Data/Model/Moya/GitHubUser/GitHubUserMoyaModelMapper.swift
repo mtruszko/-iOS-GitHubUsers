@@ -9,7 +9,15 @@
 import Foundation
 
 class GitHubUserModelMapper {
-    func mapOrNil(from: GitHubUserMoyaModel) -> GitHubUser {
-        return GitHubUser(id: 11)
+    func mapOrNil(from: GitHubUserMoyaModel) -> GitHubUser? {
+        guard let id = from.id,
+            let login = from.login,
+            let avatarUlr = from.avatarUrl else {
+                return nil
+        }
+        
+        return GitHubUser(id: id,
+                          login: login,
+                          avatarUrl: avatarUlr)
     }
 }

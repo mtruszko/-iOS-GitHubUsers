@@ -10,7 +10,16 @@ import UIKit
 import Moviper
 
 class UsersListRouting: BaseRxRouting, UsersListContractRouting {
-    func startUserProfile() {
-        
+    
+    let usersProfileStarter: UsersProfileStarter = UsersProfileStarter()
+    
+    func startUserProfile(gitHubUser: GitHubUser) {
+        if let vc = viewController {
+            usersProfileStarter.startOn(viperView: vc,
+                                        animated: true)
+            { usersProfileViewController in
+                usersProfileViewController.gitHubUser = gitHubUser
+            }
+        }
     }
 }

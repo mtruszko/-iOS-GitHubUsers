@@ -10,4 +10,6 @@ import Foundation
 
 struct GitHubUser {
     let id: Int
+    let login: String
+    let avatarUrl: String
 }

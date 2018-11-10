@@ -8,6 +8,7 @@
 
 import UIKit
 import Moviper
+import RxSwift
 
 typealias UserListPresenterType =
     UsersListPresenter<
@@ -19,21 +20,51 @@ class UsersListPresenter
     <InteractorType: UsersListContractInteractor, RoutingType: UsersListContractRouting, ViewType: UsersListContractView>
 : BaseRxPresenter<InteractorType, RoutingType, ViewType> {
     
+    var refreshSubject: PublishSubject<()> = PublishSubject<()>()
+    
     override func attach(viperView: ViperRxView) {
         super.attach(viperView: viperView)
         
         addSubscription(subscription:
-            interactor.getGitHubUsers()
-                .subscribe(onNext: { gitHubUsers in
-                    self.view?.show(githubUsers: gitHubUsers)
-                }, onError: { error in
+            refreshSubject
+                .asObservable()
+                .do(onNext: { _ in
+                    self.view?.showLoading()
+                })
+                .observeOn(workScheduler)
+                .flatMap { _ -> Observable<[GitHubUser]> in
+                    self.interactor
+                        .getGitHubUsers()
+                }
+                .observeOn(mainScheduler)
+                .do(onError: { error in
                     self.view?.show(error: error)
                 })
+                .retry()
+                .subscribe(onNext: { gitHubUsers in
+                    self.view?.show(githubUsers: gitHubUsers)
+                })
         )
+        
+        addSubscription(subscription:
+            view?.pullToRefreshObservable
+                .bind(to: refreshSubject)
+        )
+        
+        addSubscription(subscription:
+            view?.selectedUser
+                .asObservable()
+                .do(onNext: { gitHubUser in
+                    self.routing.startUserProfile(gitHubUser: gitHubUser)
+                })
+                .subscribe()
+        )
+        
+        refreshList()
     }
     
     func refreshList() {
-        
+        refreshSubject.onNext(())
     }
     
     override func createRouting() -> RoutingType {

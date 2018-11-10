@@ -13,9 +13,12 @@ class GitHubUserMoyaRepository: MoyaRepository<GitHubUser, UsersMoyaAPI> {
     override func query(specification: Specification) -> Observable<[GitHubUser]> {
         return (specification as! GitHubUserMoyaSpecification)
             .getResults(moyaProvider)
-            .map({ gitHubUserMoyaModel -> [GitHubUser] in
-                return [GitHubUser]()
-            })
-            .asObservable()
+            .map { gitHubUserMoyaModels -> [GitHubUser] in
+                return gitHubUserMoyaModels
+                    .compactMap { gitHubUserMoyaModel -> GitHubUser? in
+                        GitHubUserModelMapper().mapOrNil(from: gitHubUserMoyaModel)
+                    }
+            }
+            .asObservable() 
     }
 }
